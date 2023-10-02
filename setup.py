@@ -12,4 +12,9 @@ setup(
         "ultralytics==8.0.188",
         "whisper_timestamped==1.12.20",
     ],
+    entry_points={
+        'console_scripts': [
+            'openmismas = openmismas:main_function',
+        ],
+    },
 )
