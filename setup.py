@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='openmismas',
     version='0.1',
-    packages=find_packages(),
+    packages=['openmismas'],
     install_requires=[
         "opencv_python==4.8.0.76",
         "pandas==2.1.1",
