@@ -14,7 +14,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'openmismas = openmismas:main_function',
+            'openmismas = openmismas:main',
         ],
     },
 )
