@@ -112,7 +112,7 @@ def object_tracking_to_df(results, source: str) -> pd.DataFrame:
     return df
 
 
-def main():
+def main_function():
     os.system('cls' if os.name == 'nt' else 'clear')
     print("=== MISMAS v2 ===")
     print("\n")
@@ -143,4 +143,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main_function()
